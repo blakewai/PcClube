@@ -76,3 +76,4 @@ D:\Project\C#\WPF\PCClub\PCClub\obj\Debug\net10.0-windows\Pages\PagesUser\Profil
 D:\Project\C#\WPF\PCClub\PCClub\obj\Debug\net10.0-windows\Pages\PagesUser\ProfileUser.baml
 D:\Project\C#\WPF\PCClub\PCClub\obj\Debug\net10.0-windows\Pages\PagesUser\EmploeeyrsListInfo.g.cs
 D:\Project\C#\WPF\PCClub\PCClub\obj\Debug\net10.0-windows\Pages\PagesUser\EmploeeyrsListInfo.baml
+D:\Project\C#\WPF\PCClub\PCClub\obj\Debug\net10.0-windows\PCClub.sourcelink.json

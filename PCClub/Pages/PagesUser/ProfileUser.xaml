@@ -34,11 +34,19 @@
                     Foreground="White"
                     Click="Button_Click"/>
         </Border>
-        <StackPanel Grid.Row="1" Grid.ColumnSpan="2" Margin="200,0,0,0" >
+        <StackPanel Grid.Row="1" Margin="0,0,10,0" HorizontalAlignment="Center" FlowDirection="RightToLeft" >
+            <Label Content="Имя" FontSize="18"/>
+            <Label Content="Фамилия" FontSize="18" Margin="0,8"/>
+            <Label Content="Отчество" FontSize="18"/>
+            <Label Content="Дата рождения" FontSize="18" Margin="0,8"/>
+            <Label Content="Почта" FontSize="18"/>
+        </StackPanel>
+        <StackPanel Grid.Row="1" Grid.Column="1">
             <Border CornerRadius="7" 
                     Background="White" 
                     Height="35">
-                <TextBox Name="FirstNameTB" 
+                <TextBox Name="FirstNameTB"
+                         IsEnabled="False"
                          Background="{x:Null}"
                          BorderThickness="0"
                          Padding="8"
@@ -50,33 +58,41 @@
                     Margin="0,8">
                 <TextBox Name="LastNameTB"
                          Padding="8"
+                         IsEnabled="False"
                          Background="{x:Null}"
-                         BorderThickness="0"/>
+                         BorderThickness="0"
+                         FontSize="15"/>
             </Border>
             <Border Background="White"
                     CornerRadius="7"
                     Height="35">
                 <TextBox Name="SureNameTB"
                          Background="{x:Null}"
+                         IsEnabled="False"
                          Padding="8"
-                         BorderThickness="0"/>
+                         BorderThickness="0"
+                         FontSize="15"/>
             </Border>
             <Border Background="White"
                     CornerRadius="7"
                     Height="35"
                     Margin="0,8">
                 <DatePicker Name="BirthDayDP"
-                            Padding="8"
+                            Padding="6"
+                            IsEnabled="False"
                             Background="{x:Null}"
-                            BorderThickness="0"/>
+                            BorderThickness="0"
+                            FontSize="15"/>
             </Border>
             <Border Background="White"
                     CornerRadius="7"
                     Height="35">
                 <TextBox Name="EmailTB"
                          Background="{x:Null}"
+                         IsEnabled="False"
                          Padding="8"
-                         BorderThickness="0"/>
+                         BorderThickness="0"
+                         FontSize="15"/>
             </Border>
             <Border Height="50" 
                     Width="220"
@@ -89,7 +105,7 @@
                         Background="{x:Null}"
                         FontSize="20"
                         FontWeight="ExtraBold"
-                        BorderThickness="0"/>
+                        BorderThickness="0" Click="Button_Edit"/>
             </Border>
 
         </StackPanel>

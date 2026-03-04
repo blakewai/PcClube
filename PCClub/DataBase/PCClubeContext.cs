@@ -7,6 +7,8 @@ namespace PCClub.DataBase
 {
     class PCClubeContext : DbContext
     {
+        public static PCClubeContext context;
+
         public PCClubeContext()
         {
             Database.EnsureCreated();
